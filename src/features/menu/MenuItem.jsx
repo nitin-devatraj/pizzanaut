@@ -1,6 +1,6 @@
 import { formatCurrency } from "../../utils/helpers";
 
-function MenuItem({ pizza }) {
+export default function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
 
   return (
@@ -16,5 +16,3 @@ function MenuItem({ pizza }) {
     </li>
   );
 }
-
-export default MenuItem;

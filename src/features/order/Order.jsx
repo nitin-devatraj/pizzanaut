@@ -41,7 +41,7 @@ const order = {
   priorityPrice: 19,
 };
 
-function Order() {
+export default function Order() {
   // Everyone can search for all orders, so for privacy reasons we're gonna gonna exclude names or address, these are only for the restaurant staff
   const {
     id,
@@ -82,5 +82,3 @@ function Order() {
     </div>
   );
 }
-
-export default Order;
