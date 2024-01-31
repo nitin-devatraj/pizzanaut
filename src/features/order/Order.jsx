@@ -50,7 +50,7 @@ export default function Order() {
         </p>
       </div>
 
-      <ul className="divide-y divide-stone-200 border-b">
+      <ul className="divide-y divide-stone-200 border-b px-1">
         {cart.map((item) => (
           <OrderItem item={item} key={item.pizzaId} />
         ))}
