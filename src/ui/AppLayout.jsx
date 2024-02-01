@@ -11,7 +11,7 @@ export default function AppLayout() {
       {isLoading && <Loader />}
       <Header />
       <div className="overflow-auto">
-        <main className="mx-auto max-w-3xl">{<Outlet />}</main>
+        <main className=" mx-auto max-w-3xl">{<Outlet />}</main>
       </div>
       <CartOverview />
     </div>
