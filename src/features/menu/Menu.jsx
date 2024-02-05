@@ -1,6 +1,6 @@
 import { useLoaderData } from "react-router-dom";
 import { getMenu } from "../../services/apiRestaurant";
-import MenuItem from "./menu-item/MenuItem";
+import MenuItem from "./MenuItem";
 
 export default function Menu() {
   const menu = useLoaderData();

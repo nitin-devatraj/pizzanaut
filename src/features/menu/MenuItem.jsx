@@ -1,9 +1,9 @@
-import { formatCurrency } from "../../../utils/helpers";
-import Button from "../../../ui/Button";
+import { formatCurrency } from "../../utils/helpers";
+import Button from "../../ui/Button";
 import { useDispatch, useSelector } from "react-redux";
-import { addItem } from "../../../features/cart/cartSlice";
-import DeleteItem from "../../cart/DeleteItem";
-import UpdateItemQuantity from "../../cart/UpdateItemQuantity";
+import { addItem } from "../../features/cart/cartSlice";
+import DeleteItem from "../cart/DeleteItem";
+import UpdateItemQuantity from "../cart/UpdateItemQuantity";
 
 export default function MenuItem({ pizza }) {
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
